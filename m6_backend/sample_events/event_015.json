@@ -1,0 +1,16 @@
+{
+  "node_id": "N03",
+  "cam_id": "C03",
+  "ts": "2026-11-05T09:45:00+05:30",
+  "type": "wrong_way",
+  "track_id": 1015,
+  "class": "cart",
+  "conf": 0.72,
+  "zone_id": "Z3",
+  "plate": {
+    "text": "DEMO-0002",
+    "conf": 0.89,
+    "img": "media/plate_demo_02.jpg"
+  },
+  "clip": "synthetic_demo_clip.mp4"
+}

@@ -1,0 +1,12 @@
+{
+  "node_id": "N01",
+  "cam_id": "C01",
+  "ts": "2026-11-05T09:29:00+05:30",
+  "type": "encroachment",
+  "track_id": 1010,
+  "class": "cart",
+  "conf": 0.72,
+  "zone_id": "Z1",
+  "plate": null,
+  "clip": "synthetic_demo_clip.mp4"
+}

@@ -1,0 +1,8 @@
+"event_id","track_id","event_time_s","zone","predicted_class","confidence","verdict","actual_class","box_ok"
+"15","4139","17.467","LANE_2","auto","0.322801375","wrong_way","auto","yes"
+"17","22","4.433","LANE_2","two_wheeler","0.41571625","normal_direction","pedestrian",""
+"18","11","5.1","LANE_1","two_wheeler","0.652706625","normal_direction","two_wheeler","yes"
+"19","2013","9.133","LANE_1","auto","0.373440125","normal_direction","auto","yes"
+"20","2684","11.133","LANE_1","auto","0.4872035","normal_direction","car","yes"
+"21","3057","12.8","LANE_1","auto","0.628131375","normal_direction","auto","yes"
+"22","4708","19.967","LANE_2","auto","0.37998600000000005","normal_direction","auto","yes"

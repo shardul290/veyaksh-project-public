@@ -1,0 +1,12 @@
+{
+  "node_id": "N02",
+  "cam_id": "C02",
+  "ts": "2026-11-05T09:41:48+05:30",
+  "type": "encroachment",
+  "track_id": 1014,
+  "class": "car",
+  "conf": 0.92,
+  "zone_id": "Z2",
+  "plate": null,
+  "clip": "synthetic_demo_clip.mp4"
+}

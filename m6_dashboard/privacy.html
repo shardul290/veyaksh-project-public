@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f6f8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Privacy policy draft | VEYAKSH</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.65 "Segoe UI", Arial, sans-serif; color: #26394d; background: #f3f6f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { padding: 22px max(20px, calc((100% - 900px) / 2)); background: rgba(255,255,255,.82); border-bottom: 1px solid #d6dfe4; }
+    header a { color: #174f5c; text-decoration: none; font-weight: 700; }
+    main { max-width: 900px; margin: 38px auto; padding: 0 22px 50px; }
+    .draft { padding: 14px 16px; border: 1px solid #c89b4b; border-left: 4px solid #a36c18; border-radius: 4px; background: #fff8e8; color: #59431e; }
+    h1 { margin: 26px 0 6px; color: #1b3045; font-size: clamp(28px, 4vw, 38px); line-height: 1.2; }
+    h2 { margin: 28px 0 8px; color: #1e5863; font-size: 20px; }
+    p { margin: 10px 0; }
+    ul { padding-left: 22px; }
+    li { margin: 5px 0; }
+    .card { padding: 24px; border: 1px solid #d4dfe4; border-radius: 8px; background: rgba(255,255,255,.78); box-shadow: 0 5px 18px rgba(44,66,88,.05); }
+    footer { max-width: 900px; margin: auto; padding: 18px 22px 30px; border-top: 1px solid #d6dfe4; font-size: 14px; }
+    a { color: #245f6b; }
+    a:focus-visible { outline: 3px solid #3c91a0; outline-offset: 2px; }
+    @media (max-width: 600px) { main { margin-top: 24px; } .card { padding: 18px; } }
+  </style>
+</head>
+<body>
+  <header><a href="/">VEYAKSH Traffic Dashboard</a></header>
+  <main>
+    <div class="draft"><strong>Draft for review.</strong> This page is not ready for public use. Replace every bracketed item with verified information and obtain legal review before launch.</div>
+    <h1>Privacy policy</h1>
+    <p><strong>Last reviewed:</strong> [Set date after approval]</p>
+    <article class="card">
+      <h2>Who is responsible</h2>
+      <p>The operator is <strong>[legal name of the responsible organisation]</strong>, at <strong>[postal address]</strong>. Privacy questions and requests can be sent to <strong>[privacy contact email or other verified contact]</strong>.</p>
+
+      <h2>What this system can handle</h2>
+      <p>The current project software accepts and displays traffic event records. Depending on the footage and event, records may include:</p>
+      <ul>
+        <li>vehicle registration plate text and a plate image;</li>
+        <li>traffic images or video clips that may contain vehicles, passengers, pedestrians, or other identifying details;</li>
+        <li>event timestamps, camera and node identifiers, approximate camera locations, vehicle class, event type, and model confidence values.</li>
+      </ul>
+      <p>The local dashboard requests node and event data from this project's API and loads media from its <code>/media/</code> path. The current development API has no authentication. It must not be exposed to the public internet until access controls, hosting security, and operational responsibilities have been reviewed.</p>
+
+      <h2>Purpose and authority</h2>
+      <p><strong>[State the specific, approved purposes for collecting and using footage and event records, who authorised the collection, and the applicable legal basis or authority.]</strong> Do not publish this notice until these details have been confirmed by the responsible organisation.</p>
+
+      <h2>Map provider</h2>
+      <p>The dashboard loads the Leaflet map library from <code>unpkg.com</code> and requests visible map tiles directly from the OpenStreetMap tile service. These requests are made by your browser and include standard connection information such as your IP address, browser details, and the referring page. Tile requests also indicate the map area being viewed. Event and plate values are not included in those requests. Review the <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation privacy policy</a> and the policies of the services used to deliver Leaflet assets.</p>
+
+      <h2>Storage, access, sharing, and retention</h2>
+      <p><strong>[Name the hosting locations and service providers, identify which authorised people or organisations can access the information, describe any disclosures, and set a retention period with a deletion process.]</strong> The database schema alone does not define these operational practices.</p>
+
+      <h2>Requests and complaints</h2>
+      <p>To ask about information relating to you or raise a privacy concern, contact <strong>[verified contact and request process]</strong>. The responsible organisation must confirm which requests it can handle, how it verifies requests, and any response timelines before publication.</p>
+
+      <h2>Security and changes</h2>
+      <p><strong>[Describe the safeguards that are actually deployed, incident contact process, and how material policy changes will be communicated.]</strong> Do not claim safeguards that have not been implemented and checked.</p>
+
+      <h2>Legal review</h2>
+      <p>This draft is not legal advice. The responsible organisation should obtain advice for its deployment and intended use. Relevant official materials include India's <a href="https://www.indiacode.nic.in/indiacode/handle/123456789/22037?view_type=browse">Digital Personal Data Protection Act, 2023</a> and the Ministry of Electronics and Information Technology's <a href="https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025">Digital Personal Data Protection Rules, 2025</a>. Applicability and commencement must be checked for the actual launch date.</p>
+    </article>
+  </main>
+  <footer><a href="/">Dashboard</a> | <a href="/terms">Terms and conditions draft</a></footer>
+</body>
+</html>

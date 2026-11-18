@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VEYAKSH Traffic Event",
+  "description": "Event payload contract based on the event example and field definitions in the project README.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "node_id",
+    "cam_id",
+    "ts",
+    "type",
+    "track_id",
+    "class",
+    "conf",
+    "zone_id",
+    "plate",
+    "clip"
+  ],
+  "properties": {
+    "node_id": {
+      "type": "string",
+      "pattern": "^N[0-9]{2}$",
+      "description": "Source node identifier, e.g. N01."
+    },
+    "cam_id": {
+      "type": "string",
+      "pattern": "^C[0-9]+$"
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 event timestamp with timezone."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "wrong_way",
+        "encroachment"
+      ]
+    },
+    "track_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "car",
+        "two_wheeler",
+        "auto",
+        "e_rickshaw",
+        "cart",
+        "pedestrian",
+        "other"
+      ]
+    },
+    "conf": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "zone_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "plate": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "text",
+            "conf",
+            "img"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "conf": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "img": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ],
+      "description": "Null when no plate is available; otherwise text, confidence, and image path."
+    },
+    "clip": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Source video clip filename."
+    }
+  }
+}

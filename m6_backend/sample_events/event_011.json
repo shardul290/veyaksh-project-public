@@ -1,0 +1,16 @@
+{
+  "node_id": "N02",
+  "cam_id": "C02",
+  "ts": "2026-11-05T09:32:12+05:30",
+  "type": "wrong_way",
+  "track_id": 1011,
+  "class": "two_wheeler",
+  "conf": 0.77,
+  "zone_id": "Z2",
+  "plate": {
+    "text": "DEMO-0003",
+    "conf": 0.89,
+    "img": "media/plate_demo_03.jpg"
+  },
+  "clip": "synthetic_demo_clip.mp4"
+}

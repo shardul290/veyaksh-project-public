@@ -1,0 +1,16 @@
+{
+  "node_id": "N03",
+  "cam_id": "C03",
+  "ts": "2026-11-05T09:06:36+05:30",
+  "type": "wrong_way",
+  "track_id": 1003,
+  "class": "e_rickshaw",
+  "conf": 0.87,
+  "zone_id": "Z3",
+  "plate": {
+    "text": "DEMO-0002",
+    "conf": 0.89,
+    "img": "media/plate_demo_02.jpg"
+  },
+  "clip": "synthetic_demo_clip.mp4"
+}

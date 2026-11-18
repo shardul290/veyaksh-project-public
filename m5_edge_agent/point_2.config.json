@@ -1,0 +1,8 @@
+{
+  "api_url": "http://127.0.0.1:8000",
+  "node_id": "N02",
+  "cam_id": "C02",
+  "source_video": "m6_backend/media/camera_recordings/point_2.mp4",
+  "source_start_ts": "REPLACE_WITH_ACTUAL_RECORDING_START_ISO8601",
+  "evidence_dir": "m6_backend/media/event_evidence/point_2"
+}

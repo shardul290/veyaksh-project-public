@@ -1,0 +1,63 @@
+{
+  "node_id": "N01",
+  "cam_id": "C01",
+  "frame_size": {
+    "width": 1920,
+    "height": 1080
+  },
+  "max_track_gap_s": 1.0,
+  "lanes": [
+    {
+      "zone_id": "LANE_1",
+      "polygon": [
+        [
+          0.05,
+          0.25
+        ],
+        [
+          0.95,
+          0.25
+        ],
+        [
+          0.95,
+          0.9
+        ],
+        [
+          0.05,
+          0.9
+        ]
+      ],
+      "allowed_dir_deg": 90,
+      "tolerance_deg": 35,
+      "min_observations": 8,
+      "min_elapsed_s": 0.75,
+      "min_displacement_ratio": 0.015,
+      "required_wrong_windows": 3
+    }
+  ],
+  "no_park_zones": [
+    {
+      "zone_id": "NO_PARK_1",
+      "polygon": [
+        [
+          0.78,
+          0.3
+        ],
+        [
+          0.98,
+          0.3
+        ],
+        [
+          0.98,
+          0.9
+        ],
+        [
+          0.78,
+          0.9
+        ]
+      ],
+      "max_dwell_s": 15,
+      "max_gap_s": 1.0
+    }
+  ]
+}

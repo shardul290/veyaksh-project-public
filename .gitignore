@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+*.py[cod]
+events.sqlite3
+*.db
+assets/rtsp_inputs/*
+!assets/rtsp_inputs/.gitkeep
+
+# Local source videos and generated video outputs (never commit footage)
+*.mp4
+*.m4v
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Event-frame extracts and short event evidence clips are local data products
+m6_backend/media/event_evidence/
+
+# Local datasets and extraction output
+assets/extracted_frames/
+assets/raw_videos/
+raw_videos/
+extracted_frames/
+datasets/
+VEYAKSH_TRAFFIC_DATASET*/
+
+# Dataset/project archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Private TLS key
+auto.key

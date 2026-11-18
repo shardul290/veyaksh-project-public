@@ -1,0 +1,4 @@
+[
+  {"node_id": "N01", "cam_id": "C01", "recordings": [{"label": "Point 1 recording", "path": "camera_recordings/point_1.mp4", "start_ts": null}]},
+  {"node_id": "N02", "cam_id": "C02", "recordings": [{"label": "Point 2 recording", "path": "camera_recordings/point_2.mp4", "start_ts": null}]}
+]

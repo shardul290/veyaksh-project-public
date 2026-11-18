@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Traffic video analysis</title><style>
+body{margin:0;background:#101722;color:#eaf0f8;font:16px/1.5 Segoe UI,Arial,sans-serif}main{max-width:1000px;margin:36px auto;padding:0 22px}
+h1{font-size:32px;margin-bottom:4px}.muted{color:#aab8ca}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.card,.panel{background:#192536;border:1px solid #2a3a4f;border-radius:14px;padding:18px}.value{font-size:28px;font-weight:700;color:#7de0c3}
+.bar-row{display:grid;grid-template-columns:130px 1fr 48px;gap:12px;align-items:center;margin:12px 0}.track{height:12px;background:#26364a;border-radius:8px;overflow:hidden}
+.track i{display:block;height:100%;background:linear-gradient(90deg,#48c6a9,#69a9ff);border-radius:8px}video{width:min(100%,540px);max-height:75vh;background:#000;border-radius:12px}
+a{color:#83c4ff}.note{border-left:4px solid #f3bd5b;padding:10px 14px;background:#262a2b}
+</style><main><h1>Traffic video analysis</h1><div class="muted">Frame-by-frame vehicle object detection · assets\traffic_demo.mp4</div>
+<div class="grid"><div class="card"><div class="muted">Frames processed</div><div class="value">397</div></div>
+<div class="card"><div class="muted">Video duration</div><div class="value">13.2s</div></div>
+<div class="card"><div class="muted">Vehicle boxes</div><div class="value">4242</div></div>
+<div class="card"><div class="muted">Processing speed</div><div class="value">2.29 fps</div></div></div>
+<section class="panel"><h2>Annotated video</h2><video controls preload="metadata" src="../assets/traffic_demo_analysis.mp4"></video>
+<p><a href="../assets/traffic_demo_analysis.mp4">Open/download the annotated MP4</a></p></section>
+<section class="panel" style="margin-top:16px"><h2>Vehicle detection counts</h2><div class="bar-row"><span>Car</span><div class="track"><i style="width:100.0%"></i></div><b>3665</b></div>
+<div class="bar-row"><span>Bus</span><div class="track"><i style="width:10.2%"></i></div><b>373</b></div>
+<div class="bar-row"><span>Truck</span><div class="track"><i style="width:4.4%"></i></div><b>161</b></div>
+<div class="bar-row"><span>Motorcycle</span><div class="track"><i style="width:0.8%"></i></div><b>30</b></div>
+<div class="bar-row"><span>Boat</span><div class="track"><i style="width:0.4%"></i></div><b>13</b></div></section>
+<p class="note"><b>Interpretation:</b> counts represent detected vehicle boxes across frames, so a vehicle appearing in many frames is counted repeatedly. These are object detections only; this report does not infer direction, violations, or wrong-way events.</p>
+<p class="muted">Model: OpenCV Zoo NanoDet · Generated 2026-11-01T09:49:22+00:00</p></main></html>

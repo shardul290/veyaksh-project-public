@@ -1,0 +1,12 @@
+{
+  "node_id": "N03",
+  "cam_id": "C03",
+  "ts": "2026-11-05T09:16:12+05:30",
+  "type": "encroachment",
+  "track_id": 1006,
+  "class": "two_wheeler",
+  "conf": 0.77,
+  "zone_id": "Z3",
+  "plate": null,
+  "clip": "synthetic_demo_clip.mp4"
+}

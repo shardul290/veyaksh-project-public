@@ -1,0 +1,4 @@
+{"ts":0.0,"class":"bus_truck","source_class":"bus","bbox":[66.71,219.79,180.27,274.45],"conf":0.398509,"track_id":1,"frame":0}
+{"ts":0.6,"class":"bus_truck","source_class":"bus","bbox":[160.45,219.43,266.05,274.64],"conf":0.433066,"track_id":1,"frame":3}
+{"ts":1.2,"class":"bus_truck","source_class":"bus","bbox":[244.02,214.0,363.11,273.82],"conf":0.380056,"track_id":1,"frame":6}
+{"ts":1.8,"class":"bus_truck","source_class":"bus","bbox":[334.59,219.08,448.94,273.89],"conf":0.367603,"track_id":1,"frame":9}
